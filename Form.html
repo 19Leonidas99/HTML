@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<link rel="stylesheet" href="Form.css">
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description">Thank you for taking the time to complete this survey</p>
+<form id="survey-form">
+  <div>
+    <label for="name" id="name-label">Name:</label>
+    <br>
+    <input id="name" type="text" placeholder="Enter your name" required><br><br>
+  </div>
+  <div>
+    <label for="email" id="email-label">Email:</label>
+    <br>
+    <input id="email" type="email" placeholder="Enter your email" required>
+    <br><br>
+  </div>
+  <div>
+    <label for="number" id="number-label">Age:</label>
+    <br>
+    <input id="number" type="number" placeholder="choose age" min="18" max="99" required>
+    <br><br>
+  </div>
+  <div>
+    <label for="license">Do you have a drinving license:
+      <br>
+      <label for="yes"><input type="radio" name="yes-no" value="yes">yes</label>
+      <label for="no"><input type="radio" name="yes-no" value="no">no</label>
+      <br><br>
+  </div>
+  <div>
+    <label for="dropdown">Choose car brand:</label>
+    <br>
+    <select id="dropdown">
+      <option value="Toyota">Toyota</option>
+      <option value="BMW">BMW</option>
+      <option value="Ford">Ford</option>
+      <option value="Dodge">Dodge</option>
+    </select>
+    <br><br>
+  </div>
+  <div>
+    <label for="model">Choose one or more models:</label>
+    <br>
+    <label for="Hellcat"><input class="carModel" type="checkbox" value="Hellcat">Hellcat</label>
+    <br>
+    <label for="Impala"><input class="carModel" type="checkbox" value="Impala">Impala</label>
+    <br>
+    <label for="Belair"><input class="carModel" type="checkbox" value="Belairt">Belair</label>
+    <br>
+    <label for="E3"><input class="carModel" type="checkbox" value="E3">E3</label>
+    <br>
+    <label for="SUPRA"><input class="carModel" type="checkbox" value="SUPRA">SUPRA</label>
+    <br>
+    <label for="DemonCharger"><input class="carModel" type="checkbox" value="DemonCharger">Demon Charger</label>
+    <br>
+    <label for="M30"><input class="carModel" type="checkbox" value="M30">M30</label>
+    <br><br>
+  </div>
+  <textarea for="comments">Comments</textarea><br>
+  <input id="comments" type="text" placeholder="Enter comments">
+  <br><br>
+  <button id="submit" type="submit">Submit</button>
+</form>
+</body>
+
+</html>
