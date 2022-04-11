@@ -74,7 +74,7 @@ p{
   font-family: 'Supermercado One', cursive;
 }
 h2 {
-  padding: 20px 0px 0px 20%;
+  padding: 20px 0 0 520%;
   color: #000;
   font-size: 100px;
   font-family: 'Supermercado One', cursive;
@@ -97,5 +97,5 @@ footer {
   color: #FFF;
   background-color: #0000CC;
   float: right;
-  padding: 10px 20px 10px 0px;
+  padding: 10px 20px 10px 0;
 }
